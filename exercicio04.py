@@ -11,5 +11,5 @@ imc = peso / (altura **2)
 print(f"IMC:{imc:2f}")
 
 if imc > 18 5 : 
-print("abaixo do peso":)
+    print("abaixo do peso":)
 
