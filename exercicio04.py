@@ -3,17 +3,17 @@
 # lenta (<5 km/h), moderada (5 a 10 km/h) ou rápida (>10 km/h).
 
 
-peso = float(input("digite o pese (KG):"))
-altura = float(input"digite a autura (m):"))
+distancia = float(input("digite a distancia"))
+tempo = float(input("digite o tempo "))
 
-imc = peso / (altura **2)
+v_media = distancia / tempo 
+  
+  if v_media < 5 : 
+  print("lento")
 
-print(f"IMC:{imc:2f}")
+elif v_media < 5 ond < = 10 :
+  prest ("moderado")
 
-if imc > 18 5 : 
-    print("abaixo do peso":)
-elif imc < 25 : 
-    print ("peso normal .")
 else: 
-    print("acima do peso .")
-    
+
+print("rapido")
