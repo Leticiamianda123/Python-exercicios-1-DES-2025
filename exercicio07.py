@@ -6,3 +6,9 @@
 # Reprovado (<5)
 
 avaliacaodoscolaboradores = int(input("as metas atingida e suas avaliacao "))
+
+if avaliacaodoscolaboradores >=5 <=7:
+    print("avaliação dele está correta".)
+
+else:
+    print("a avaliação está errada.")
