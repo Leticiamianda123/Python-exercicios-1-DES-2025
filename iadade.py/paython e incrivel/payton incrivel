@@ -1,0 +1,8 @@
+texto = "leticia e linda!"
+print(texto.upper()) 
+print(texto.upper())
+
+print(len(texto))
+
+novo_texto = texto.replace("incrível," "poderoso") 
+print(novo_texto)
