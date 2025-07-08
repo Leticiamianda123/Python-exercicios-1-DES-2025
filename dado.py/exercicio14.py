@@ -1,5 +1,12 @@
-#Loja oferece os seguintes descontos:
 
-#Compras acima de R$ 500,00 têm 10%
-#Acima de R$ 300,00 têm 5%
-#Menor ou igual a R$ 300,00 não têm desconto
+# if valor_compra > 500:
+      
+
+  desconto = valor_compra * 0.10  # 10% de desconto
+        percentual_desconto = "10%"
+    elif valor_compra > 300:
+        desconto = valor_compra * 0.05  # 5% de desconto
+        percentual_desconto = "5%"
+    else:
+        percentual_desconto = "0%"
+

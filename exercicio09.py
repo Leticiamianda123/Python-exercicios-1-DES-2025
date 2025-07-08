@@ -4,5 +4,6 @@
 numero = int(input("digite seu numero "))
 
 if numero % 2 == 0:
-    print(f"o numero:{numero} e par, muitiplo de 2, parabes 
-          ")
+    print(f"o numero:{numero} e par, muitiplo de 2, parabes")
+    else:
+        print(f"o numero: {numero} é impar,por tanto nao é multiplo de 2")
